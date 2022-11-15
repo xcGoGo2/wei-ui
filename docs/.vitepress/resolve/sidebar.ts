@@ -1,5 +1,4 @@
 import { DefaultTheme } from "vitepress";
-
 export const sidebar: DefaultTheme.Sidebar = {
     "/guide": [
         {
@@ -14,7 +13,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
             text: "通用基础组件",
             items: [
-                { text: "Button", link: "/demos/button/",  },
+                { text: "示例组件", link: "/demos/button/",  },
                 { text: "基础组件 2", link: "/demos/button/u" },
             ],
         },
