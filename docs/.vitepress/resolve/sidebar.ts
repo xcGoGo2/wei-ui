@@ -1,4 +1,5 @@
 import { DefaultTheme } from "vitepress";
+
 export const sidebar: DefaultTheme.Sidebar = {
     "/guide": [
         {
@@ -33,3 +34,5 @@ export const sidebar: DefaultTheme.Sidebar = {
         },
     ],
 };
+
+

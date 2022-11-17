@@ -7,11 +7,22 @@ import 'element-plus/dist/index.css'
 import WeiUI from "../../../packages";
 
 // @ts-ignore
-const modulesFiles = import.meta.globEager('../../demos/**/index.md');
+const modulesFiles = import.meta.globEager('../../demos/**/**/index.md');
 let pageDatas: any = [];
 for (const path in modulesFiles) {
   pageDatas.push(modulesFiles[path].__pageData || {})
 }
+
+pageDatas.forEach((element: { relativePath: any }) => {
+    const sideName = element.relativePath.match(new RegExp('demos/(\S*)index.md'));
+    debugger
+
+
+});
+
+console.log(pageDatas);
+debugger
+
 
 export default {
   ...theme,

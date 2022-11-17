@@ -1,5 +1,8 @@
 import { defineConfig } from "vitepress";
-import { componentPreview, containerPreview } from '@vitepress-demo-preview/plugin'
+import {
+    componentPreview,
+    containerPreview,
+} from "@vitepress-demo-preview/plugin";
 import { sidebar } from "./resolve/sidebar";
 import { nav } from "./resolve/nav";
 
@@ -13,20 +16,21 @@ export default defineConfig({
         logo: "/logo.png",
         siteTitle: "weiUI",
         outline: 3,
-        socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+        socialLinks: [
+            { icon: "github", link: "https://github.com/vuejs/vitepress" },
+        ],
         nav,
         sidebar,
     },
     markdown: {
         theme: {
-          light: 'vitesse-light',
-          dark: 'vitesse-dark'
+            light: "vitesse-light",
+            dark: "vitesse-dark",
         },
         lineNumbers: true,
         config(md) {
-          md.use(componentPreview)
-          md.use(containerPreview)
-        }
-      }
+            md.use(componentPreview);
+            md.use(containerPreview);
+        },
+    },
 });
-
