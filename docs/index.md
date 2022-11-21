@@ -15,10 +15,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/
+      link: /pages/guide/index
     - theme: alt
       text: 组件
-      link: /demos/button/
+      link: /pages/demos/basic/button/index
 features:
   - icon: 🔨
     title: 高效全面

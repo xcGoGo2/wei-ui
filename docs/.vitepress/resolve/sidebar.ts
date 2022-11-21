@@ -1,35 +1,32 @@
 import { DefaultTheme } from "vitepress";
 
 export const sidebar: DefaultTheme.Sidebar = {
-    "/guide": [
+    "/pages/guide": [
         {
             text: "指南",
             items: [
-                { text: "组件库介绍", link: "/guide/" },
-                { text: "快速开始", link: "/guide/quickstart" },
+                { text: "组件库介绍", link: "/pages/guide/index" },
+                { text: "快速开始", link: "/pages/guide/quickstart" },
             ],
         },
     ],
-    "/demos": [
+    "/pages/demos": [
         {
             text: "通用基础组件",
             items: [
-                { text: "示例组件", link: "/demos/button/",  },
-                { text: "基础组件 2", link: "/demos/button/u" },
+                { text: "示例组件", link: "/pages/demos/basic/button/",  },
             ],
         },
         {
             text: "通用业务组件",
             items: [
-                { text: "通用组件 1", link: "/demos/button/i" },
-                { text: "通用组件 2", link: "/demos/button/b" },
+                { text: "通用组件 1", link: "/pages/demos/business/button/" },
             ],
         },
         {
             text: "高级业务组件",
             items: [
-                { text: "高级组件 1", link: "/demos/button/g" },
-                { text: "高级组件 2", link: "/demos/button/f" },
+                { text: "高级组件 1", link: "/pages/demos/pro/button/" },
             ],
         },
     ],
