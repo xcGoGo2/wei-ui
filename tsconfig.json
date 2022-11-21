@@ -14,7 +14,8 @@
     "paths": {
       "@wei-ui": ["packages"]
     },
-      "noImplicitThis": false
+      "noImplicitThis": false,
+      "types": ["vite/client"]
   },
   "include": [
       "packages/**/*.ts",
