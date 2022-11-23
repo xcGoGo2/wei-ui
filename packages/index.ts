@@ -1,8 +1,8 @@
-import * as weiComponents from './components';
+import * as wayComponents from './components';
 import version from './version'
 
 const components: any = [];
-Object.entries(weiComponents).forEach(com => {
+Object.entries(wayComponents).forEach(com => {
     const [name, component] = com;
     component.install = function (Vue: any) {
         Vue.component(name, component);

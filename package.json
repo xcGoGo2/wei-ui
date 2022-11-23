@@ -1,10 +1,10 @@
 {
-  "name": "wei-ui",
+  "name": "way-ui",
   "version": "0.0.1-alpha.0",
   "description": "基于elementUI-plus的高阶组件库",
   "private": false,
-  "main": "dist/wei-ui.umd.js",
-  "module": "dist/wei-ui.es.js",
+  "main": "dist/way-ui.umd.js",
+  "module": "dist/way-ui.es.js",
   "style": "dist/style.css",
   "type": "module",
   "files": [
@@ -12,8 +12,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/wei-ui.es.js",
-      "require": "./dist/wei-ui.umd.js"
+      "import": "./dist/way-ui.es.js",
+      "require": "./dist/way-ui.umd.js"
     },
     "./*": "./*"
   },
@@ -37,7 +37,6 @@
   "devDependencies": {
     "@types/node": "^18.11.9",
     "typescript": "^4.8.4",
-    "vite-plugin-require-transform": "^1.0.4",
     "vitepress": "1.0.0-alpha.28"
   },
   "dependencies": {
