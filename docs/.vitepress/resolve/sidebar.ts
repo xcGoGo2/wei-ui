@@ -5,7 +5,7 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
             text: "指南",
             items: [
-                { text: "组件库介绍", link: "/pages/guide/index" },
+                { text: "介绍", link: "/pages/guide/" },
                 { text: "快速开始", link: "/pages/guide/quickstart" },
             ],
         },

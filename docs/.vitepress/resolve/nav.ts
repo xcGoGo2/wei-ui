@@ -1,8 +1,8 @@
 import { DefaultTheme } from "vitepress";
 
 export const nav: DefaultTheme.NavItem[] = [
-    { text: "指南", link: "/pages/guide/index" },
-    { text: "组件", link: "/pages/demos/basic/button/index" },
+    { text: "指南", link: "/pages/guide/" },
+    { text: "组件", link: "/pages/demos/basic/button/" },
     // 顶部导航下拉菜单按如下方式：
     /*
     {
