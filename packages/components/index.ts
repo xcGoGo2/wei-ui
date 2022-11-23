@@ -1,6 +1,6 @@
-import { weiButton } from './button';
+import { wayButton } from './button';
 
 export {
-    weiButton
+    wayButton
 }
 

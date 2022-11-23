@@ -12,7 +12,7 @@
     "lib": ["esnext", "dom"],
     "baseUrl": ".",
     "paths": {
-      "@wei-ui": ["packages"]
+      "@way-ui": ["packages"]
     },
       "noImplicitThis": false,
       "types": ["vite/client"]

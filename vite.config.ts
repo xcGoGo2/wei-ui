@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import vue from '@vitejs/plugin-vue';
-import requireTransform from 'vite-plugin-require-transform';
 
 function pathResolve(dir: string) {
     return resolve(process.cwd(), ".", dir);
@@ -17,7 +16,7 @@ export default defineConfig({
                 replacement: pathResolve("./docs/*"),
             },
             {
-                find: "@WeiUI",
+                find: "@WayUI",
                 replacement: pathResolve("packages"),
             },
         ],
@@ -26,8 +25,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: pathResolve("packages/index.ts"), // 设置入口文件
-            name: "wei-UI", // 起个名字，安装、引入用
-            fileName: (format) => `wei-ui.${format}.js`, // 打包后的文件名
+            name: "way-ui", // 起个名字，安装、引入用
+            fileName: (format) => `way-ui.${format}.js`, // 打包后的文件名
         },
         sourcemap: true, // 输出.map文件
         rollupOptions: {
@@ -41,11 +40,7 @@ export default defineConfig({
     },
     plugins: [
         vueJsx(),
-        vue(),
-        requireTransform({
-            fileRegex:/.ts$|.tsx$|.vue$/
-            //   fileRegex:/.js$|.jsx$|.vue$/
-        }),
+        vue()
     ]
 });
 

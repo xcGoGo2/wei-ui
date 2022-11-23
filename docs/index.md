@@ -6,16 +6,16 @@ titleTemplate: 选项卡描述
 editLink: true
 lastUpdated: true
 hero:
-  name: weiUI
+  name: wayUI
   text: 企业级中后台组件库
   tagline: 基于element-plus，全面拥抱Vue3的高阶组件库
   image:
     src: /logo.png
-    alt: wei UI
+    alt: way UI
   actions:
     - theme: brand
       text: 快速开始
-      link: /pages/guide/index
+      link: /pages/guide/
     - theme: alt
       text: 组件
       link: /pages/demos/basic/button/index
