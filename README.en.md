@@ -1,7 +1,7 @@
 简体中文 | [English](./README.en.md)
 
 <div align="center"><img width="200" src="./src/assets/logo.png"/>
-<h1> Way-UI </h1>
+<h1> WaycloudUI </h1>
 
 <p> 基于elementUI-plus的高阶组件库 </p>
 </div>
