@@ -1,1 +1,3 @@
-export { default as wayButton } from './src/Button.vue'
+export { default as wButton } from './src/Button.vue'
+
+
