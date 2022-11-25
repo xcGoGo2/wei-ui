@@ -7,14 +7,14 @@ import { sidebar } from "./resolve/sidebar";
 import { nav } from "./resolve/nav";
 
 export default defineConfig({
-    title: "wayUI",
+    title: "waycloudUI",
     description: "基于 vite vue3 element-plus 组件库",
     lang: "cn-ZH",
     base: "/",
     lastUpdated: true,
     themeConfig: {
         logo: "/logo.png",
-        siteTitle: "wayUI",
+        siteTitle: "waycloudUI",
         outline: 3,
         socialLinks: [
             { icon: "github", link: "https://github.com/vuejs/vitepress" },

@@ -1,7 +1,5 @@
 <template>
-    <el-button class="way-button" @click="$emit('click', $event)">
-        <slot>测试组件</slot>
-    </el-button>
+    <el-input class="w-input"></el-input>
 </template>
 
 <script lang="ts" setup>

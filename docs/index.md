@@ -6,12 +6,12 @@ titleTemplate: 选项卡描述
 editLink: true
 lastUpdated: true
 hero:
-  name: wayUI
+  name: waycloudUI
   text: 企业级中后台组件库
   tagline: 基于element-plus，全面拥抱Vue3的高阶组件库
   image:
     src: /logo.png
-    alt: way UI
+    alt: waycloudUI
   actions:
     - theme: brand
       text: 快速开始

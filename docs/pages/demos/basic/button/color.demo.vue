@@ -1,5 +1,5 @@
 <template>
-    <way-button @click="goClick">测试</way-button>
+    <w-button @click="goClick">测试</w-button>
 </template>
 
 <script lang="ts" setup>

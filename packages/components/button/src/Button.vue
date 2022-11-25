@@ -1,11 +1,12 @@
 <template>
-    <el-button class="way-button" @click="$emit('click', $event)">
+    <el-button class="w-button" @click="$emit('click', $event)">
         <slot>测试组件</slot>
     </el-button>
 </template>
 
 <script lang="ts" setup>
 defineEmits(["click"]);
+
 </script>
 
 <style scoped lang="less">
